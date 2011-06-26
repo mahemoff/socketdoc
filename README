@@ -1,0 +1,6 @@
+This is a proof-of-concept doc/wiki built with SocketStream.
+
+It's not documented for now, but follows standard SocketStream conventions.
+
+I used the following article as a reference:
+http://addyosmani.com/blog/building-real-time-coffeescript-web-applications-with-socketstream/

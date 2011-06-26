@@ -1,0 +1,17 @@
+!!! 5
+html(lang="en")
+  head
+    != SocketStream
+    title SocketDoc
+  body
+    #content
+      h1 Edit Something
+      textarea(id="doc",rows=20,cols=80)
+      h2 What is SocketDoc?
+      p This is a demo of the new 
+        a(href='https://github.com/socketstream/socketstream') SocketStream
+        |  application framework for Node
+      p#message Attempting to connect to the server over websockets or flashsockets...
+      img(class='logo', src='/images/logo.png', alt='SocketStream Logo', width=167, height=159)
+    .conn-error
+      div server is down :(
